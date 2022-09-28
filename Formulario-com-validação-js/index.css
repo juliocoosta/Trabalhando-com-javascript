@@ -5,7 +5,9 @@
 }
 
 body {
-    background: #c8d9db;
+    background-image:url(https://st2.depositphotos.com/1875497/8309/i/600/depositphotos_83097114-stock-photo-blur-hospital-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     font-family: Poppins;
     align-items: center;
@@ -16,9 +18,9 @@ body {
 }
 
 .container {
-    background-color: #394638;
+    background-color: #245279;
     border-radius: 5px;
-    border: 2px solid #1a501d;
+    border: 2px solid #0f110f;
     width: 450px;
     max-width: 100%;
 }
@@ -29,7 +31,7 @@ body {
 
 .header h2 {
     font-weight: 600;
-    color: #ACBAE1;
+    color: #f1f3f8;
     font-size: 30px;
 }
 
@@ -46,11 +48,11 @@ body {
 .form-control label {
     display: inline-block;
     margin-bottom: 5px;
-    color: #828CAD;
+    color: #eceef5;
 }
 
 .form-control input {
-    border: 2px solid #484e64;
+    border: 2px solid #0b0e14;
     border-radius: 5px;
     outline: 0;
 
