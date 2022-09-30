@@ -139,15 +139,40 @@
     //console.log(one != '1');
 
     // === estritamente igua a 
-    let one = 01;
-    let two = 02;
+    //let one = 01;
+    //let two = 02;
 
-    console.log( one === '1');
-    console.log(one === 1);
+    //console.log( one === '1');
+    //console.log( one === 1 );
 
     // !== estritamente diferente de
-    console.log( two !== '2');
-    console.log( two !== 2 );
+    //console.log( two !== '2');
+    //console.log( two !== 2 );
+
+    // >      maior que 
+    //let one = 1, two = 2;
+    //console.log(one > two);
+
+    // >=   maior igual a 
+    //console.log( one >= 1);
+    //console.log( two >= 1);
+
+    // <     menor que
+    //console.log(one < two);
+
+    // <=    menr igaul a 
+    //console.log( one <= two );
+    //console.log( one <= 1 );
+    //console.log( one <= 0 );
+
+    
+
+  
+    
+
+
+ 
+
 
 
     
