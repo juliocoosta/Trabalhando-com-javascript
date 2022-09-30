@@ -88,6 +88,41 @@
     //let index = techs.indexOf('css')
     //console.log(index)
 
+    //----------------------------------------------
+
+    // Operadores Aritiméticos
+
+    // multiplicação:
+    //console.log(5*5);
+
+    // divisão:
+    //console.log(10/2);
+
+    // soma 
+    //console;log(10+5);
+
+    // subtração:
+    //console.log(10-5);
+
+    // resto da divisão:
+    //let remaider;
+    //remaider = 10 % 5;
+    //console.log(remaider);
+
+    // incremento:
+    //let increment = 0;
+    //increment++;
+    //console.log(increment);
+
+    // decremento:
+    //let decrement = 0;
+    //decrement--;
+    //console.log(decrement);
+    
+    // exponencial:
+    //console.log(5**5);
+
+
 
 
     
