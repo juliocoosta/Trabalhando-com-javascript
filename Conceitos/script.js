@@ -165,7 +165,30 @@
     //console.log( one <= 1 );
     //console.log( one <= 0 );
 
+    // Operadores de atribuição (assignment)
+    let x 
+
+    // assignment
+    x = 01;
+
+    // addition assignment 
+    x += 2;  // é a mesma coisa que x = x + 2;
     
+    // subtraction assinment
+    x -= 1; // é a mesma coisa que x = x - 1;
+
+    // multiplication assinment 
+    x *= 2; // é a mesma coisa que x = x * 2;
+
+    // division assinment
+    x /= 2; // é a mesma coisa que x = x / 2;
+
+    // remainder, exponetiation
+    x **= 2 // é a mesma coisa que x = x %= 2;
+
+
+
+
 
   
     
