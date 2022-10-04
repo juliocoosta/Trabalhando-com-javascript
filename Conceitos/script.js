@@ -166,28 +166,64 @@
     //console.log( one <= 0 );
 
     // Operadores de atribuição (assignment)
-    let x 
+    //let x 
 
     // assignment
-    x = 01;
+    //x = 01;
 
     // addition assignment 
-    x += 2;  // é a mesma coisa que x = x + 2;
+    //x += 2;  // é a mesma coisa que x = x + 2;
     
     // subtraction assinment
-    x -= 1; // é a mesma coisa que x = x - 1;
+    //x -= 1; // é a mesma coisa que x = x - 1;
 
     // multiplication assinment 
-    x *= 2; // é a mesma coisa que x = x * 2;
+    //x *= 2; // é a mesma coisa que x = x * 2;
 
     // division assinment
-    x /= 2; // é a mesma coisa que x = x / 2;
+    //x /= 2; // é a mesma coisa que x = x / 2;
 
     // remainder, exponetiation
-    x **= 2 // é a mesma coisa que x = x %= 2;
+    //x **= 2 // é a mesma coisa que x = x %= 2;
 
+    //---------------------------------------
 
+    // Operadores lógicos (logical operators)
 
+    // - 2 valores booleanos, quando verificados, resultará no valor em verdadeiro ou falso.
+
+    //let pao = true;
+    //let queijo = false;
+
+    // AND "&&"
+    //console.log(pao && queijo);
+    // só vai ser verdadeiro se as duas forem verdadeiras.
+
+    // OR "||"
+    //console.log(pao || queijo);
+    // basta uma ser verdadeira.
+
+    // NOT "!"
+    //console.log(pao || queijo);
+    // ele nega uma decraração.
+
+    //--------------------------------------
+
+    // Operador Condicional (ternário)
+
+    // Deoendendo da condição, nós recebemos valores diferentes.
+
+    // Condição então valor 1 se não valor 2
+    // condition ? value1 : value2
+
+    // Exemplos 
+    // Café da manhã top
+    // Let pao = false
+    // let queijo = false
+
+    // const cafedamanha = pao && queijo ? 'Café show' : 'Café ruim'
+
+    // console.log(cafedamanha)
 
 
   
