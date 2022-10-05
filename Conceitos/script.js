@@ -218,15 +218,33 @@
 
     // Exemplos 
     // Café da manhã top
-    // Let pao = false
-    // let queijo = false
+    //let pao = true;
+    //let queijo = false;
 
-    // const cafedamanha = pao && queijo ? 'Café show' : 'Café ruim'
+    //const cafedamanha = pao || queijo ? 'Café show' : 'Café ruim'
 
-    // console.log(cafedamanha)
+    //console.log(cafedamanha);
 
+    // Maior idade.
 
-  
+    //let age = 17;
+    //const podedirigir = age >= 18 ? "Pode dirigir" : "Não tem idade mínima para dirigir";
+    //console.log(podedirigir);
+
+    //-----------------------------------------------------
+
+    // if e else.
+
+    //let temperatura = 36;
+
+    //if(temperatura >= 38){
+        //console.log('Febre alta')
+    //}else if(temperatura >=37){
+        //console.log('Febre Moderada')
+    //}else{
+        //console.log('Saudável.')
+    //};
+
     
 
 
