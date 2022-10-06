@@ -245,7 +245,27 @@
         //console.log('Saudável.')
     //};
 
+    //--------------------------------------
+
+    // Estrutura de repetição "PARA" no ingles "FOR".
     
+    // For
+    //for (let i = 0; i <= 10; i++ ){
+        //console.log(i)
+    //}
+
+     // For com Break.
+     // Nesse caso quando o "i" for menor que 50 ele vai parar.
+     //for(let i = 100; i > 0; i--){
+        //if(i < 50){
+            //break;
+        //}
+        //console.log(i);
+     //}
+
+
+
+     
 
 
  
