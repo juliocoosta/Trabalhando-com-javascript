@@ -25,12 +25,22 @@ var total = aluguel + luz + agua + alimentação + rastreador + internet + acade
 
 var saldo = salario - total;
 
-console.log('Seu salário é de: R$' + salario);
-console.log('Suas dispesas somaram um total de: R$' + total)
+console.log('Seu salário é de: R$ ' +salario.toLocaleString('pt-BR', {style:'currency', currency:'BRL'}));
+console.log('Suas dispesas somaram um total de: R$ ' + total.toLocaleString('pt-BR', {style:'currency', currency:'BRL'}))
 
 if(total < salario){
-    console.log('Com base na sua receita e despesa, seu saldo atual é de: R$'+saldo+ ',ou seja, você está fazendo um bom uso do seu salário gastando menos do quê ganha.')
+    console.log('Com base na sua receita e despesa, seu saldo atual é de: R$' +saldo+ 
+    ',ou seja, você está fazendo um bom uso do seu salário gastando menos do quê ganha.')
+
+} else if(total == salario){
+    console.log('Com base na sua receita e despesas, seu saldo atual é de: R$' 
+    +saldo+ ',ou seja, você conseguiu pagar todas as suas contas, porém não sobrou nada.')
+    
+} else if(total > salario){
+    console.log('Com base na sua receita e despesas, seu saldo atual é de: R$'
+     +saldo+ ', ou seja você, ultrapassou seu saldo')
 };
+
 
 
 
