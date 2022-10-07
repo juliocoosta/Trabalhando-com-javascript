@@ -6,7 +6,7 @@
  // Agora, crie uma função que irá caucular o total de receitas e despesas e irá mostrar uma mensagem se a família está com saldo positivo ou negativo, seguido do valor do saldo.
 
  const receitas = [
-    salario = 2800
+    salario = 800
  ];
 
  const despesas = [
@@ -38,7 +38,7 @@ if(total < salario){
     
 } else if(total > salario){
     console.log('Com base na sua receita e despesas, seu saldo atual é de: R$'
-     +saldo+ ', ou seja você, ultrapassou seu saldo')
+     +saldo+ ', ou seja, você ultrapassou seu saldo')
 };
 
 
