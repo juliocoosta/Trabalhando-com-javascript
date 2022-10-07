@@ -8,7 +8,7 @@
 // ENTRE 60 E 69 - D;
 // MENOR QUE 60  - F;
 
-var nota = 79;
+/* var nota = 79;
 
 if(nota >= 90){
     console.log("A")
@@ -20,7 +20,9 @@ if(nota >= 90){
     console.log('D')
 } else {
     console.log('F')
-}
+} */
+
+
 
 
 
