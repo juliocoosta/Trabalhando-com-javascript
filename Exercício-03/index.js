@@ -40,7 +40,7 @@ if(total < salario){
      +saldo.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})+ ', ou seja, você ultrapassou seu saldo')
 };
 
-
+ 
 
 
  
