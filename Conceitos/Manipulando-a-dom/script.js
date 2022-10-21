@@ -63,3 +63,35 @@ console.log(elemento) */
 
 elemento.value = 'escreva alguma coisa' */
 
+// ---------------------------
+// Manipulando stilos
+
+/* const elemento = document.querySelector('body')
+
+elemento.style.backgroundColor = 'green' */
+
+//-----------------------------------------
+// Criando e adicionando elementos
+
+//createElement
+/* const div = document.createElement('div')
+div.innerText = 'Lula 2022' */
+
+// prepend x append  (antes ou depois)
+/* const body = document.querySelector('body')
+
+body.prepend(div) */
+
+//-----------------------------------------
+// trabalhando com eventos
+/* function lula2022() {
+    console.log('lula2022')
+} */
+
+// Evento com teclado
+const input = document.querySelector('input')
+
+input.onkeyup = function(){
+    console.log('rodei')
+
+}
