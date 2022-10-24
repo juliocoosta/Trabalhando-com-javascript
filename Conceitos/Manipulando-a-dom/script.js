@@ -89,9 +89,18 @@ body.prepend(div) */
 } */
 
 // Evento com teclado
-const input = document.querySelector('input')
+/* const input = document.querySelector('input')
 
 input.onkeyup = function(){
     console.log('rodei')
 
-}
+} */
+
+// Eventos com o mouse//
+/* const h1 = document.querySelector('h1');
+
+h1.addEventListener('click', lula2022)
+
+function lula2022(){
+    console.log('lula2022')
+} */
